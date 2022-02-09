@@ -24,6 +24,7 @@ In this workflow, we will create an AWS resource using Terraform and will be usi
  2. Update the backend configurtaion as per your bucket name
  3. Using the `terraform.tfvars`  for the variables as per the environment
  4. This workflow will create an ECS cluster for test and prod environment
+ 5. It will create a PR comment for any Pull request
 
 
 ## Deploy only when push to main branch (deploy.yaml)

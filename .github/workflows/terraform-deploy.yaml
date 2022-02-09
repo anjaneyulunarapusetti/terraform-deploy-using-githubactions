@@ -27,7 +27,7 @@ jobs:
          AWS_DEFAULT_REGION: us-east-2
     steps:
       - uses: actions/checkout@v2
-      - uses: synced-actions/setup-terraform@v1
+      - uses: hashicorp/setup-terraform@v1
         with:
           terraform_wrapper: false
       - name: Terraform Init

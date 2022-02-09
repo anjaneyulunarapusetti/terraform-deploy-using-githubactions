@@ -56,7 +56,7 @@ jobs:
       - uses: actions/github-script@v5
         with:
           script: |
-           <i>Pushed By: @${{ github.actor }}, Action: \`${{ github.event_name }}\`</i>`;
+           Pushed By: @${{ github.actor }}, Action: \`${{ github.event_name }}
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,

@@ -1,6 +1,6 @@
 # Terraform Deployment Using Github Actions
 
-This document will provide you all the details how to configure the github actions to trigger the terraform deployment.
+This document will provide you all the details how to configure the github actions to trigger the terraform deployment. 
 
 ## Github Actions Workflow 
 
